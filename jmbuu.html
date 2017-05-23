@@ -1,0 +1,109 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>加盟补优优</title>
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+<link href="css/BuuCommon.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="../weixinplugins/js/form_validation.js"></script>
+<script type="text/javascript" src="../weixinplugins/js/BuuWebApp.js"></script>
+<script src="js/html5.js"></script>
+<script>
+$(function(){
+  settime("#sendecode","#tel",function(){
+	  
+	  //发送验证码到用户手机
+	  
+	  });
+	  
+$("#submit_jm").on("click",function(){
+	
+	
+	if($("#tel").val()=="")
+	{
+		showTips("电话号码不能为空哦！","");
+		
+	}
+	
+	
+	
+	})	  
+	  
+	  
+	  
+});
+ </script>
+
+</head>
+
+<body>
+<header class="hd">
+	<div class="inner">
+    	<a href="index.html" class="logo"><img src="image/index_02.png"></a>
+        <nav>
+        <ul id="menu">         
+            	<li ><a href="index.html">首页</a></li>
+                <li ><a href="about.html">认识补优优</a></li>
+                <li ><a href="projects.html">补优优服务</a></li>
+                <li class="active"><a href="zmdrbuu.html">加入补优优</a></li>
+                <li ><a href="buu_news.html">补优优动态</a></li>
+            </ul>
+        </nav>
+        <div class="tel_buu">急修热线 : 4008-033-933 </div>
+    </div>
+</header>
+
+  <!--news_banner-->
+    <div class="projects_banner"> </div>
+    
+ <!--维修项目-->
+   <div class="project">
+        <div class="project_lis">
+          <ul style="width:600px;">
+            <li><a href="zmdrbuu.html" >招募维修达人</a></li> 
+            <li class="li_line">|</li>
+            <li><a href="jmbuu.html" class="active">加盟补优优</a></li>
+            <div class="clear"></div>
+          </ul>
+       </div>
+       <div class="clear"></div>
+   </div>
+
+
+  <div class="jmbuu_box">
+    <p class="jmbuu_box_hder"><b></b>加盟须知：</p>
+    <p> 
+1、加盟补优优必须具有维修服务的过硬技术，并且保证服从公司的统一的服务规范和管理要求。<br/>
+2、加盟补优优要具备良好的沟通能力及基本素养，具有基本的交通工具和维修工具，保证能够及时的服务客户。<br/>
+3、加盟补优优必须进行实名验证并交纳一定的服务保证金，证明自己无犯罪记录和不良信用记录。 </p>
+    
+    
+  
+  <p class="jmbuu_title">在线填写加盟信息</p>
+  <form>
+  <div class="jmbuu_submit">
+  <div><label><font>*</font>姓名：</label><p><input type="text" class="input_style" /></p></div>
+  <div><label>性别：</label><p><input type="radio" value="男" name="sex" checked="checked"/>男&nbsp;&nbsp;<input type="radio" value="女" name="sex" />女</p></div>
+  <div><label>年龄：</label><p><input type="text" class="input_style" ></p></div>
+  <div><label>电话：</label><p><input type="text" class="input_style" ></p></div>
+  <div><label>Q Q：</label><p><input type="text" class="input_style" ></p></div>
+  <div><label>证件号：</label><p><input type="text" class="input_style" ></p></div>
+  <div><label>服务范围：</label><p><input type="text" class="input_style" ></p></div>
+  <div><label>服务区域：</label><p><input type="text" class="input_style" ></p></div>
+  <div><label><font>*</font>手机号码：</label><p><input type="text" class="input_style" style="width:150px;" placeholder="请输入手机号码" id="tel" ><input class="input_style" placeholder="请输入验证码" style="width:100px;"  /><input type="button" id="sendecode" class="sendecode" value="获取短信验证码" /></p></div>
+   <div><p><input type="button" class="submit_btn"  value="我要加盟" id="submit_jm"/></p></div>
+
+  </div>
+          
+  </form>
+  
+  </div>
+
+ <div id="footer" >
+       <p class="clearfix"><span class="span_address">深圳市南山区中山园路1001号TCL国际E城E3栋5楼</span><span class="span_kefu">客服QQ：3167907106&nbsp;&nbsp;1203186553</span><span class="span_tel">急修热线：4008-033-933</span></p>
+       <p class="bq_footer">版权所有：深圳市补优优网络科技有限公司&nbsp;&nbsp;粤ICP备16009706号-1&nbsp;&nbsp;公司座机:0755-86960504</p>
+ </div>
+
+</body>
+</html>
